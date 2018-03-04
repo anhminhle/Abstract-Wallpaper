@@ -19,7 +19,7 @@ Array.from(figures).forEach(function(figure, i) {
 		    loader.style.opacity = "0";		//hide loader
 		    loader.style.zIndex = -1;
 		   	modalImg.src = imgs[i].src;
-	    	captionText.innerHTML = imgs[i].alt;
+
 	    }, 1000);
 	};
 });
